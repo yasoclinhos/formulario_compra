@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario Conta</title>
+</head>
+<body>
+    
+   
+
+    <h1>Compras</h1>
+
+    <form action="script.php" method="post">
+        <div class="formulario">
+        <label for="cliente">Nome do cliente</label>
+        <input type="text" name="cliente" id="cliente" required>
+<br>
+        <label for="produto1">Primeiro Produto</label>
+        <input type="text" name="produto1" id="produto1" required>
+<br>
+        <label for="valor1">Valor do Primeiro Produto</label>
+        <input type="number" name="valor1" id="valor1" step="0.01">
+<br>
+
+        <label for="produto2">Segundo Produto</label>
+        <input type="text" name="produto2" id="produto2" required>
+<br>
+        <label for="valor2">Valor do Segundo Produto</label>
+        <input type="text" name="valor2" id="valor2" step="0.01" required>
+<br>
+        <label for="valorPago">Valor Pago pelo Cliente</label>
+        <input type="text" name="valorPago" id="valorPago" step="0.01" required>
+<br>
+     
+<button type="submit">Gerar Nota Fiscal</button>
+        <form method="POST" action="script.php">
+        
+
+        </form>
+    </form>
+</div>
+
+</body>
+</html>
